@@ -8,3 +8,8 @@ console.log(element1, element2, element3);
 const [data1, data2, data3] = friends;
 console.log(data1, data2, data3);
 
+
+let x = "A";
+let y = "B";
+[x, y] = [y, x];
+console.log(x, y);
